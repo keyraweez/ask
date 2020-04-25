@@ -1076,6 +1076,9 @@ label{
     max-width: 250px;
    position: relative;
 }
+.red__event_img{
+    width: 35%;
+}
 .green__event_ipad,.red__event_ipad,.yellow__event_ipad{
     text-align: center;
     padding-top: 24px;
@@ -1192,7 +1195,7 @@ label{
     padding: 20px 55px;
     border-radius: 25px;
 }
-@media(max-width:770px){
+@media(max-width:970px){
     .events{
         display: none;
     }
@@ -1228,7 +1231,7 @@ label{
     position: relative;
     margin-bottom: 50px;
 }
-.about-us__text_subtitle::after{
+/* .about-us__text_subtitle::after{
     position: absolute;
     content: '';
     background: #037693;
@@ -1238,7 +1241,7 @@ label{
     width: 100%;
     left: 460px;
    
-}
+} */
 .about-us__text_disc{
     margin-left: 120px;
     text-align: center;
