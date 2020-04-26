@@ -546,11 +546,11 @@ label{
     background: #f1b451;
     position: absolute;
 }
-.figure_a p,.figure2_a p{
-   padding-left: 10px;
+/* .figure_a p,.figure2_a p{
+    padding-left: 10px;
     font-size: 20px;
     text-align-last: center;
-}
+} */
 .interaction_imgs_body_a{
     max-width: 720px;
     margin: auto;
@@ -563,7 +563,11 @@ label{
 .figure_a img,.figure2_a img{
     padding-left: 10px;
 }
-
+.figure__text1,.figure__text2,.figure__text3{
+    
+    font-size: 20px;
+    text-align-last: center;
+}
 @media(max-width:1100px){
     .inter__body_text{
         font-size: 35px;
