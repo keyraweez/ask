@@ -416,11 +416,11 @@ label{
     }
     .about__btn_second,.about__btn_first{
         position: absolute;
-        bottom: 25%;
+        bottom: 55%;
     }
     .text_dis{
       text-align: center;
-      bottom: 20%;
+      bottom: 60%;
       position: absolute;
     }
 }
