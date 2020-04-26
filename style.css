@@ -126,7 +126,7 @@ li{
     top: 20px;
     left: 20px;
     width: 56px;
-    height: 26px;
+    height: 36px;
     cursor: pointer;
     z-index: 1;
     float: right;
@@ -138,18 +138,18 @@ li{
     display: block;
     position: absolute;
     width: 100%;
-    height: 2px;
+    height: 3px;
     background-color: rgb(255, 255, 255);
     box-shadow: 2px 2px 5px black;
     transition-duration: .25s;
   }
   .menu__btn > span::before {
     content: '';
-    top: -8px;
+    top: -12px;
   }
   .menu__btn > span::after {
     content: '';
-    top: 8px;
+    top: 12px;
   }
 
   .menu__box {
