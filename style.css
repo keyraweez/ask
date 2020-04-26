@@ -25,6 +25,9 @@ li{
 .header{
     background:#000 no-repeat;
     background-size: cover;  
+    position: fixed;
+    width: 100%;
+    z-index: 2;
    
 }
 .header::before{
@@ -118,7 +121,7 @@ li{
     position: fixed;
     top: 20px;
     left: 20px;
-    width: 26px;
+    width: 56px;
     height: 26px;
     cursor: pointer;
     z-index: 1;
@@ -132,7 +135,8 @@ li{
     position: absolute;
     width: 100%;
     height: 2px;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 5px black;
     transition-duration: .25s;
   }
   .menu__btn > span::before {
@@ -143,7 +147,7 @@ li{
     content: '';
     top: 8px;
   }
-  
+
   .menu__box {
     display: block;
     position: fixed;
@@ -155,9 +159,8 @@ li{
     margin: 0;
     padding: 80px 0;
     list-style: none;
-    background-color: black;
+    background: linear-gradient(#000000,#434343);
     box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
-  
     transition-duration: .25s;
   }
   
@@ -193,8 +196,7 @@ li{
         display: block;
         top: 40px;
         right: 0;
-        position: absolute;
-        order: 2;
+        position: absolute;       
     }
     .header__logo a{
         display: none;
