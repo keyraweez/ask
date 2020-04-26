@@ -563,10 +563,13 @@ label{
 .figure_a img,.figure2_a img{
     padding-left: 10px;
 }
-.figure__text1,.figure__text2,.figure__text3{
+.figure__text1,.figure__text2{
     
     font-size: 20px;
     text-align-last: center;
+}
+.figure__text3{
+    font-size: 19px;
 }
 @media(max-width:1100px){
     .inter__body_text{
