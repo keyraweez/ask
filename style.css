@@ -428,6 +428,7 @@ label{
     background: #037693 no-repeat;
     background-size: cover;
     padding-bottom: 280px;
+ 
 }
 .interaction_decor_body{
     display: flex;
@@ -455,13 +456,10 @@ label{
     justify-content: center;
 }
 .inter__body_text{
+    font-size: 35px;
     color: #fff;
-    font-weight: 300;
-    letter-spacing: 2px;
     text-transform: uppercase;
-    font-size: 40px;
 }
-
 .text__body_input p{
     font-size: 21px;
     color: #fff;
@@ -490,7 +488,6 @@ label{
     padding-top: 150px;
 }
 .text__body_desc p{
- 
     font-size: 25px;
     max-width: 980px;
     color: #fff;
@@ -501,13 +498,12 @@ label{
 
 }
 .interaction_imgs_body{
-    max-width: 720px;
+    padding-right: 220px;
+    max-width: 800px;
     margin: auto;
     padding-top: 400px;
     display: flex;
     justify-content: space-between;
-    padding-right: 150px;
-
 }
 .figure:hover,.figure2:hover{
     transform: rotate(225deg) scale(1.1);
@@ -535,14 +531,50 @@ label{
     background: #f1b451;
     position: absolute;
 }
+.interaction_img_one_a,.interaction_img_two_a,.interaction_img_three_a{
+    text-align: center;
+}
+/* adapt version */
+#inter__adapt{
+    display: none;
+}
+.figure_a,.figure2_a{
+    width:150px;
+    border-radius: 10px;
+    transition: .6s;
+    height: 200px;
+    background: #f1b451;
+    position: absolute;
+}
+.figure_a p,.figure2_a p{
+   padding-left: 10px;
+    font-size: 20px;
+    text-align-last: center;
+}
+.interaction_imgs_body_a{
+    max-width: 720px;
+    margin: auto;
+    padding-top: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 205px;
+    padding-right: 0; padding-left: 0;
+}
+.figure_a img,.figure2_a img{
+    padding-left: 10px;
+}
 
-@media(max-width:520px){
+@media(max-width:1030px){
     .inter__body_text{
-        font-size: 20px;
+        font-size: 35px;
     }
-    .interaction_logo{
-        font-size: 40px;
+    #inter__adapt{
+        display: flex;
     }
+    #interaction__dekstop{
+        display: none;
+    }
+
 }
 @media(max-width: 920px){
     .header__about_phone img{
@@ -565,11 +597,6 @@ label{
     .interaction_img_two{
         padding-bottom: 250px;
     }
-}
-@media(max-width:1100px){
-    .f{
-       display: none;
-   }
 }
 /* End */
 /* Feature */
