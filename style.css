@@ -1527,8 +1527,6 @@ li{
     background: #0d0d0d no-repeat;
     background-size: cover;
     color: #fff;
-    
-    
 }
 .footer__body{
     display: flex;
@@ -1585,4 +1583,34 @@ ul{
 }
 .logo__twitter,.logo__pin,.logo__in{
     padding-right: 30px;
+}
+/* Adapt footer */
+#footer__social_adapt{
+   padding-left: 350px;
+
+}
+.footer__body_adapt{
+    display: flex;
+    justify-content: center;
+}
+#footer__logo_adapt{
+    max-width:800px;
+    padding-left: 200px;
+}
+.footer__block_body{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    padding-right: 100px;
+}
+#adapt__version{
+    display: none;
+}
+@media(max-width:1030px){
+    #adapt__version{
+        display: block;
+    }
+    #footer__dekstop{
+        display: none;
+    }
 }
