@@ -45,8 +45,8 @@
             </ul>
              </nav>
             <div class="header__login">
-                <a href="#"><img src="img/login.png"></a>
-                <a href="#"><p>Log in</p></a>
+                <a href="login.html"><img src="img/login.png"></a>
+                <a href="login.html"><p>Log in</p></a>
             </div>
             <div class="header__reg">
                 <a href="#"><img src="img/reg.png"></a>
@@ -82,8 +82,43 @@
         <div class="logo">
             <p>How it works</p>
         </div>
-        <!-- Card start -->
-        <div class="cards__main">
+        <!-- Card adapt -->
+        <div class="cards__main_adapt" id="cards__adapt">
+            <div class="cards__first-row">
+                <div class="first-row__first_card">
+                    <img src="img/cardphone.png"> 
+                    <div class="card_text">
+                        <p>Create a FREE 
+                            account with us</p>
+                        </div>
+                </div>
+                <div class="first-row__second_card">
+                    <img src="img/carddiscuss.png">
+                    <div class="card_text2">
+                        <p>Create your own event
+                            or Q&A session</p>
+                        </div>
+                </div>
+            </div>
+            <div class="cards__second-row">
+                <div class="second-row__third_card">
+                    <img src="img/cardqr.png">
+                    <div class="card_text3">
+                        <p>Share your meeting code 
+                            with the participants</p>
+                        </div>
+                </div>
+                <div class="second-row__fourth_card">
+                    <img src="img/cardbtn.png">
+                    <div class="card_text4">
+                        <p>Run your meeting
+                            successfully</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Card dekstop -->
+         <div class="cards__main" id='cards__dekstop'>
             <div class="card">
                 <div class="card_img">
                     <img src="img/cardphone.png"> 
@@ -120,7 +155,7 @@
                         successfully</p>
                 </div>
             </div> 
-        </div>
+        </div> 
         <!-- Card end -->
     </div>
 </section>
@@ -482,28 +517,99 @@
         </div>
     </div>
 </section>
-<!-- <section class="about-us" id="page7">
-   <div class="logo" id="about-us_logo">
-       <p >About us</p>
-   </div>
-   <div class="wrapper">
-       <div class="about-us__body">
-         <div class="about-us__text">
-       <p class="about-us__text_title">Who we are?</p>
-       <p class="about-us__text_subtitle">What we can do for you</p>
-       <p class="about-us__text_disc">it’s never been easier to connect with people who speak this language. They 
-        want others to build up their self-image and confidence, and digital connectivity 
-        creates ample opportunity to tell your </p>
-        <p class="about-us__text_disc">One option might be developing a blog series that focuses on industry wins, or 
-            spotlights companies that are doing something right. Or if you share an article 
-            with your network.</p>
-   </div>
-   <div class="about-us__statistics">
-
-   </div>
+<section class="about-us" id="page7">
+    <div class="wrapper">
+    <div class="logo" id="about-us_logo">
+        <p>About us</p>
+    </div>
+    <div class="about-us__body">
+        <div class="about-us__text">
+            <div class="about-us__text_block1">
+                <p>Who we are?</p>
+                <p id="text2__block1">What we can do for you</p>
+                <p id="text3__block1">It’s never been easier to connect with people who speak this language. They  want others to build up their self-image and confidence, and digital connectivity  creates ample opportunity to tell your   One option might be developing a blog series that focuses on industry wins, or  spotlights companies that are doing 
+                    something right. Or if you share an article  with your network.</p>
+            </div>
+        </div>
+        <div class="about-us_statistic">
+            <div class="about-us_statistic__main">
+                <div class="statistic__green">
+                    <span id="statistic__green_first"></span>
+                    <p class='statistic__green_textone'>20,145</p>
+                    <p class='statistic__green_texttwo'>audience served</p>
+                </div>
+                <div class="statistic__red">
+                    <span id="statistic__red_first"></span>
+                    <p class='statistic__red_textone'>5480</p>
+                    <p class='statistic__red_texttwo'>hours of service</p>
+                </div>
+                 <div class="statistic__orange">
+                    <span id="statistic__orange_first"></span>
+                    <p class='statistic__orange_textone'>714</p>
+                    <p class='statistic__orange_texttwo'>event covered</p>
+                </div> 
+            </div>
+           
+        </div>
+    </div>
+</div>
+</section>
+<footer class="footer">
+    <div class="footer__wrapper">
+        <div class="footer__body">
+    <div class="footer__logo">
+        <img src="img/footerlogo.png">
+        <p>We are AskVote.io. We are a online 
+            platform for operating events effectively. 
+            We're working on a web application for facilitating anonymous 
+            questions and answers sessions. The application 
+            is to be used mainly by corporate and government customers.  </p>
+    </div>
+    <div class="footer__block_body">
+        <div class="footer__block_first">
+            <ul class="footer__block"> Useful links
+                <li><a href="#">Home</a></li>
+                <li><a href="#">How it works</a></li>
+                <li><a href="#">Terms and conditions</a></li>
+                <li><a href="#">Cookies policy</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Event list</a></li>
+            </ul>
+        </div>
+        <div class="footer__block_second">
+            <ul class="footer__block"> My account
+                <li><a href="#">New account</a></li>
+                <li><a href="#">New account</a></li>
+                <li><a href="#">Manage</a></li>
+                <li><a href="#">Delete account </a></li>
+                <li><a href="#">Dashboard </a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer__social">
+        <div class="social__text">
+            <p>We are social</p>
+        </div>
+        <div class="social__logos">
+            <div class="logo__twitter">
+                <img src="img/twit.png">
+            </div>
+            <div class="logo__pin">
+                <img src="img/pinterest.png">
+            </div>
+            <div class="logo__in">
+                <img src="img/in.png">
+            </div>
+            <div class="logo__fb">
+                <img src="img/facebook.png">
+            </div>
+        </div>
+    </div>
 </div>
 </div>
-</section> -->
+</footer>
  </body>
  <script src="https://cdn.jsdelivr.net/npm/lax.js"></script>
  <script>
